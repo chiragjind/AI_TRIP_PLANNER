@@ -1,9 +1,15 @@
-# Core frameworks
-fastapi
-streamlit
+# deployment + server
 uvicorn[standard]
+fastapi
 
-# LangChain ecosystem
+# main dependencies
+streamlit
+python-dotenv
+pydantic
+requests
+httpx
+
+# langchain ecosystem
 langchain
 langchain-community
 langchain-experimental
@@ -13,11 +19,8 @@ langchain-tavily
 langchain-google-community
 langgraph
 
-# Utilities
-pydantic
-python-dotenv
-httpx
-requests
+# optional: to avoid errors if groq isn't on PyPI, keep this for safety
+groq
 
-# Local package (editable install)
+# local install (editable)
 -e .

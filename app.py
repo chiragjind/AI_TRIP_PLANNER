@@ -5,7 +5,8 @@ import datetime
 # from exception.exceptions import TradingBotException
 import sys
 
-BASE_URL = "http://localhost:8000"  # Backend endpoint
+BASE_URL = "https://ai-trip-planner-2-n5d2.onrender.com"
+
 
 st.set_page_config(
     page_title="🌍 Travel Planner Agentic Application",

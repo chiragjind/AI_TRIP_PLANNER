@@ -18,6 +18,8 @@ langchain-groq
 langchain-tavily
 langchain-google-community
 langgraph
+googlemaps
+langchain-google-community[places]
 
 # optional: to avoid errors if groq isn't on PyPI, keep this for safety
 groq

@@ -1,0 +1,23 @@
+# Core frameworks
+fastapi
+streamlit
+uvicorn[standard]
+
+# LangChain ecosystem
+langchain
+langchain-community
+langchain-experimental
+langchain-openai
+langchain-groq
+langchain-tavily
+langchain-google-community
+langgraph
+
+# Utilities
+pydantic
+python-dotenv
+httpx
+requests
+
+# Local package (editable install)
+-e .
